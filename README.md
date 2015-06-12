@@ -73,16 +73,16 @@ The below are the steps followed in R:
 
 1. In R, I have installed the required packages rjson and RCurl. 
 
-2. I download the googlepredictionapi archived package from "https://code.google.com/p/google-prediction-api-r-client/downloads/list".
+2. I downloaded the googlepredictionapi archived package from "https://code.google.com/p/google-prediction-api-r-client/downloads/list".
 
-3. Change the working directory to the archived file's location.
+3. I changed the working directory to the archived file's location.
 
-4. Install the googlepredictionapi package.
+4. I installed the googlepredictionapi package.
 
-5. Load the required libraries.
+5. I loaded the required libraries.
 
-6. Make a training call to the prediction model in Google Prediction API.
+6. I made a training call to the prediction model in Google Prediction API.
 
-7. Make a training call against training data stored locally as a CSV file.
+7. I made a training call against training data stored locally as a CSV file.
 
-8. Make prediction calls to the trained model to get accurate predictions.
+8. I made prediction calls to the trained model to get accurate predictions.
