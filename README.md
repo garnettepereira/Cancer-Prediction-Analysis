@@ -1,4 +1,4 @@
-# Cancer-Prediction-Project
+PREDICTION ANALYSIS PROJECT
 
 ABOUT DATASET:
 
@@ -9,7 +9,7 @@ patients with advanced lung cancer from the North Central Cancer Treatment Group
 Performance scores rate how well the patient can perform usual daily activities. Size of
 the original dataset is 229 rows and 10 columns.
 
-For the purpose of Prediction, I modified this dataset to create training data for the Google Prediction API.
+For the purpose of creating a Prediction model, I modified this dataset to create training data for the Google Prediction API.
 The URL of this new dataset in Google Cloud Storage is "http://storage.googleapis.com/lungcancer/cancer.csv". This is currently a Public Link.
 
 The columns of the dataset are as follows:
@@ -56,7 +56,7 @@ GOOGLE PREDICTION API:
 
 After creation of the bucket, I used the APIs Explorer to run the below Prediction API methods:
 
-1. prediction.trainedmodels.insert - To train the model (I passed model id as "lungcancer").
+1. prediction.trainedmodels.insert - To train the model (I passed id as "lungcancer" and storageDataLocation as "lungcancer/cancer.csv").
 
 2. prediction.trainedmodels.get - To check the training status of the model.
 
